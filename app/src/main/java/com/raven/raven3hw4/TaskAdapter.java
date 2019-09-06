@@ -41,7 +41,6 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull TaskViewHolder holder, int position) {
         holder.onBind(tasks.get(position));
-        holder.onBind2(tasks.get(position));
 
     }
 

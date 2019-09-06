@@ -22,19 +22,17 @@ public class Task implements Serializable {
 
 
 
-//    public String dates(){
-//
-//        String endDateStr = dateToString(endDate);
-//        return startDateStr + " - " + endDateStr;
-//    }
+    public String dates(){
+        String startDateStr = dateToString(startDate);
+        String endDateStr = dateToString(endDate);
+        return startDateStr + " - " + endDateStr;
+    }
 
     public String startDateStr(){
-        String startDateStr = dateToString(startDate);
-        return startDateStr;
+        return dateToString(startDate);
     }
     public String endDateStr(){
-        String endDateStr = dateToString(endDate);
-        return endDateStr;
+        return dateToString(endDate);
     }
 
     private String dateToString(Date date){
