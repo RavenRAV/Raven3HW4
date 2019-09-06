@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TaskDetailsActivity">
+
+    <EditText
+        android:id="@+id/details_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="text"/>
+    <EditText
+        android:id="@+id/details_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="text"/>
+    <EditText
+        android:id="@+id/details_startDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="data"/>
+
+    <EditText
+        android:id="@+id/details_endDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="data"/>
+
+    <CheckBox
+        android:id="@+id/details_isDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>
